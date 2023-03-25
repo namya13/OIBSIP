@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+.container{
+    width:20%;
+    height : 100%;
+    background: rgb(16, 16, 16);
+    display:flex;
+    justify-content: center;
+    border-radius: 20px;
+     align-items: center;
+    box-shadow: 2px 5px 5px 5px rgb(156, 153, 153);
+
+
+}
+.calculator{
+    justify-content: center;
+}
+.calculator form #text{
+  
+   
+   border-radius: 20px;
+   box-shadow: 8px 8px 15px inset rgb(255, 252, 252);
+   height:60px;
+   width:200px;
+   color:black;
+   
+   font-weight: bold;
+   font-size: x-large;
+   
+}
+.calculator form #val{
+    font-size: larger;
+   font-weight: bolder;
+    
+    color: rgb(245, 13, 13);
+    
+    border-radius: 25px;
+    box-shadow: 9px 10px 15px inset rgb(197, 193, 193);
+    margin:8px;
+   cursor: pointer;
+   width:40px;
+   height:30px;
+}
+.calculator form :hover{
+    background-color: rgb(223, 223, 223);
+ color:rgb(148, 148, 148);
+ border-radius: 10px;
+}
+
